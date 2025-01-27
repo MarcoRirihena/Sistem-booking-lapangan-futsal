@@ -1,0 +1,125 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #006A67;
+}
+
+.menu {
+    float: right;
+}
+
+nav{
+    width: 100%; /* Menyesuaikan dengan lebar layar */
+    display: flex;
+    justify-content: space-between; /* Membuat ruang antara logo dan menu */
+    align-items: center; /* Vertikal align logo dan menu */
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1px;
+    border-bottom: 1px solid #003a38;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+ nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+ }
+
+ nav ul li a:hover{
+    text-decoration: underline;
+ }
+
+ section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+ }
+
+ .kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+ .kolom .deskripsi {
+    font-size: 60px;
+    font-weight: bold;
+    color: #006A67;
+    margin-bottom: 10px;
+    margin-top: 55px;
+ }
+
+ h2{
+    font-weight: 800px;
+    font-size: 30px;
+    margin-bottom: 30px;
+
+ }
+
+ #home img {
+    width: 450px; /* Mengatur lebar gambar */
+    height: auto; /* Menjaga rasio gambar */
+    margin-left: 20px;  /* Sesuaikan nilai 20px sesuai kebutuhan */
+    margin-right:80px;
+    margin-top: 10px
+}
+
+a.btn-biru{
+    background: #003161;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.btn-biru:hover{
+    background: #00a2d3;
+    text-decoration: none;
+}
+
+a.btn-hijau{
+    background: #003a38;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.btn-hijau:hover{
+    background: #00a2d3;
+    text-decoration: none;
+}
